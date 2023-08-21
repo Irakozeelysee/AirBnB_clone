@@ -1,0 +1,15 @@
+/* Header Styles */
+header {
+        background-color: white;
+        color: black;
+        height: 70px;
+        width: 100%;
+        border-bottom: 1px solid #CCCCCC;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+}
+header img {
+        vertical-align: middle;
+        margin-right: 20px;
+}
