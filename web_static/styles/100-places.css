@@ -1,0 +1,175 @@
+.places h1 {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.article-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.article {
+  margin: 20px;
+  padding: 20px;
+  width: 390px;
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+}
+
+.article h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.article-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.article-head h1 {
+  flex: 1;
+}
+
+.price_by_night {
+  display: flex;
+  color: #ff5a5f;
+  border: 4px solid #ff5a5f;
+  padding: 5px;
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  height: 80px;
+  padding-top: 10px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.max_guest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.guest-icon {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-image: url("../images/icon_group.png");
+}
+
+.max_guest h4 {
+  margin: 0;
+  text-align: center;
+}
+
+.number_rooms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+.room-icon {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-image: url("../images/icon_bed.png");
+}
+.number_rooms h4 {
+  margin: 0;
+  text-align: center;
+}
+
+.number_bathrooms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.bathroom-icon {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-image: url("../images/icon_bath.png");
+}
+
+.number_bathrooms h4 {
+  margin: 0;
+  text-align: center;
+}
+
+.amenitie {
+  margin-top: 40px;
+}
+.amenitie h2 {
+  padding-bottom: 15px;
+  font-size: 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.amenitie li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+.amenity-tv {
+  display: flex;
+  align-items: center;
+}
+.amenity-tv div.icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  width: 80px;
+  margin-right: 10px;
+  background-size: cover;
+  background-image: url("../images/icon_tv.png");
+  background-repeat: no-repeat;
+}
+
+.amenity-name {
+  display: inline-block;
+  font-size: 16px;
+  text-align: flex;
+}
+
+.amenity-wifi {
+  display: flex;
+  align-items: center;
+}
+.amenity-wifi div.icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  width: 80px;
+  margin-right: 3px;
+  background-size: cover;
+  background-image: url("../images/icon_wifi.png");
+  background-repeat: no-repeat;
+}
+
+.amenity-pet {
+  display: flex;
+  align-items: center;
+}
+
+.amenity-pet div.icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  width: 80px;
+  margin-right: 0px;
+  background-size: cover;
+  background-image: url("../images/icon_pets.png");
+  background-repeat: no-repeat;
+}
